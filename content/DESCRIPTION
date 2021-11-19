@@ -1,0 +1,10 @@
+Package: elong0527.github.io
+Title: Personal Website
+Version: 0.1.0
+Authors@R: c(
+    person("Yilong", "Zhang", email = "yilong.zhang@merck.com", role = c("aut", "cre"))
+    )
+URL: https://elong0527.github.io/
+Imports:
+  blogdown
+Encoding: UTF-8
