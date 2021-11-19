@@ -1,0 +1,14 @@
+[submodule "themes/hugo-renga"]
+	path = themes/hugo-renga
+	url = git@github.com:nanxstats/hugo-renga.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:nanxstats/nanxstats.github.io.git
+	branch = master
+[submodule "themes/hugo-nanx2020"]
+	path = themes/hugo-nanx2020
+	url = https://github.com/nanxstats/hugo-nanx2020
+[submodule "themes/hugo-nanx2021"]
+	path = themes/hugo-nanx2021
+	url = https://github.com/nanxstats/hugo-nanx2021.git

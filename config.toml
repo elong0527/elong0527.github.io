@@ -1,0 +1,62 @@
+baseurl = "elong0527.github.io"
+publishDir = "public"
+title = "Yilong Zhang | 张亦龙"
+author = "Yilong Zhang"
+canonifyurls = true
+languagecode = "en"
+paginate = 3
+theme = "hugo-nanx2021"
+
+enableEmoji = true
+hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[params]
+pagetitle = "Yilong Zhang"
+copyright = "© 2021–2021 Yilong Zhang"
+logofile = "image/yilong-profile.jpg"
+logoalt = "Portrait of Yilong Zhang"
+posts_navigation = true
+uselatex = true
+highlightjs = true
+highlightjslanguages = ["r"]
+progressively = false
+
+github = "elong0527"
+linkedin = "yilongzhang"
+
+[[menu.primary]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+[[menu.primary]]
+identifier = "software"
+name = "Software"
+url = "/software/"
+weight = 2
+
+[[menu.primary]]
+identifier = "papers"
+name = "Papers"
+url = "/papers/"
+weight = 3
+
+[[menu.primary]]
+identifier = "talks"
+name = "Talks"
+url = "/talks/"
+weight = 4
+
+[[menu.primary]]
+identifier = "books"
+name = "Books"
+url = "/books/"
+weight = 5

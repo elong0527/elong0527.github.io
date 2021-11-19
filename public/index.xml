@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Yilong Zhang | 张亦龙</title>
+    <link>elong0527.github.io/</link>
+    <description>Recent content in Home on Yilong Zhang | 张亦龙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="elong0527.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello R Markdown</title>
+      <link>elong0527.github.io/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>elong0527.github.io/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>Colophon</title>
+      <link>elong0527.github.io/colophon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>elong0527.github.io/colophon/</guid>
+      <description>Typography  DM Sans and DM Mono designed by Colophon Foundry  Content  Site generator: blogdown, driven by Hugo Theme: hugo-nanx2021, built on Bootstrap 5 Commenting: utterances  Editing  R Markdown: RStudio Desktop HTML, CSS, JavaScript: Visual Studio Code  </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>elong0527.github.io/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>elong0527.github.io/papers/</guid>
+      <description>Profiles  Google Scholar ORCID  Survival Missing Data R Development Metagenomics Diabetes Oncology Other Applications </description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>elong0527.github.io/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>elong0527.github.io/software/</guid>
+      <description>R packages Reporting
+ r2rtf Compact package representations CRAN | GitHub  Infrastructure and automation
+ pkglite Compact package representations CRAN | GitHub  </description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>elong0527.github.io/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>elong0527.github.io/talks/</guid>
+      <description>2021  R for clinical study reports and submission R/Pharma Conference (workshop)  </description>
+    </item>
+    
+  </channel>
+</rss>
