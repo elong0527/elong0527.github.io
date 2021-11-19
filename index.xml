@@ -51,9 +51,12 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/software/</guid>
-      <description> R packages Reporting
+      <description>R packages Reporting
  r2rtf Easily Create Production-Ready Rich Text Format (RTF) Table and Figure CRAN | GitHub  Infrastructure and automation
- pkglite Compact package representations CRAN | GitHub  </description>
+ pkglite Compact package representations CRAN | GitHub  Statistical Methods
+  gsdmvn Group sequential design for non-proportional hazards GitHub
+  smim Survival Sensitivity Analysis using Multiple Imputation and Martingale GitHub | Paper
+  simuCCP Simulating Time to Event Data with Pre-defined Predictive Metrics GitHub | Paper</description>
     </item>
     
     <item>
