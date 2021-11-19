@@ -19,6 +19,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
+      <title>Books</title>
+      <link>/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/books/</guid>
+      <description>  R for Clinical Study Reports and Submission (2021, work in progress)  </description>
+    </item>
+    
+    <item>
       <title>Colophon</title>
       <link>/colophon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,7 +42,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/papers/</guid>
-      <description> Profiles  Google Scholar ORCID   Survival Missing Data R Development Metagenomics Diabetes Oncology Other Applications </description>
+      <description> Profiles  Google Scholar ORCID   </description>
     </item>
     
     <item>
@@ -43,7 +52,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/software/</guid>
       <description> R packages Reporting
- r2rtf Compact package representations CRAN | GitHub  Infrastructure and automation
+ r2rtf Easily Create Production-Ready Rich Text Format (RTF) Table and Figure CRAN | GitHub  Infrastructure and automation
  pkglite Compact package representations CRAN | GitHub  </description>
     </item>
     
