@@ -4,7 +4,7 @@ menu: "main"
 description: "Personal website of Yilong Zhang; 张亦龙的个人网站"
 ---
 
-I am a statistician working at [Merck](https://www.merck.com/) 
+I am a statistician at [Merck](https://www.merck.com/) 
 and enjoy clinical trial development.
 
 My current focus is on using **R** to fill process, technical and training gaps 
