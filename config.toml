@@ -31,12 +31,6 @@ github = "elong0527"
 linkedin = "yilongzhang"
 
 [[menu.primary]]
-identifier = "blog"
-name = "Blog"
-url = "/blog/"
-weight = 1
-
-[[menu.primary]]
 identifier = "software"
 name = "Software"
 url = "/software/"

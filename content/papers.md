@@ -12,17 +12,3 @@ menu: "main"
 
 <div class="mt-4"></div>
 
-
-## Survival 
-
-## Missing Data
-
-## R Development
-
-## Metagenomics 
-
-## Diabetes 
-
-## Oncology 
-
-## Other Applications
