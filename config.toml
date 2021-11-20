@@ -29,6 +29,7 @@ progressively = false
 
 github = "elong0527"
 linkedin = "yilongzhang"
+colophon = "/colophon/"
 
 [[menu.primary]]
 identifier = "software"
