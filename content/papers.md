@@ -18,6 +18,9 @@ menu: "main"
 Yang, Shu, <author>Yilong Zhang</author>, Guanghan Frank Liu, and Qian Guan.  
 <em>Biometrics</em> (2021+).
 
+-	[Analysis and Reporting in Regulated Clinical Trial Environment using R](https://www.pharmasug.org/proceedings/2021/AD/PharmaSUG-2021-AD-079.pdf) <br>
+Peikun Wu, Palukuru Uday Preetham, Luo Yiwen, Nepal Sarad, <author>Yilong Zhang</author>. <em>PharmaSUG</em> (2021)
+
 - [A numerical strategy to evaluate performance of predictive scores via a copula‐based approach](https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.8566) <br> 
 <author>Yilong Zhang</author>, Yongzhao Shao. 
 <em>Statistics in medicine</em> 39, no. 20 (2020): 2671-2684.
