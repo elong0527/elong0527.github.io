@@ -4,10 +4,10 @@ menu: "main"
 description: "Personal website of Yilong Zhang; 张亦龙的个人网站"
 ---
 
-I am a statistician at [Merck](https://www.merck.com/) 
-and enjoy clinical trial development.
+I am a biostatistician at Meta and enjoy clinical development.
 
-My current focus is on using **R** to fill process, technical and training gaps 
+Before joining Meta, I worked as a statistician at Merck. 
+My focus is on using **R** to fill process, technical and training gaps 
 for clinical trial analysis, reporting, and submission with 
 a group of talented members within Merck and across the pharmaceutical industry.  
 Our recommendations are summarized in <https://r4csr.org/>. 
