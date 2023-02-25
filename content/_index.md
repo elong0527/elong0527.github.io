@@ -12,7 +12,7 @@ for clinical trial analysis, reporting, and submission with
 a group of talented members within Merck and across the pharmaceutical industry.
 Our recommendations are summarized in <https://r4csr.org/>.
 
-My current interests in statistical methods include
+My current research interests include statistical methods for
 study design, missing data, and survival analysis.
 
 I earned my PhD degree in biostatistics from New York University.

@@ -3,9 +3,9 @@ title: "Talks"
 menu: "main"
 ---
 
-<hr>
+* * * *
 
 ## 2021
 
-- [R for clinical study reports and submission](https://r4csr.org/) <br>
+- [R for Clinical Study Reports and Submission](https://r4csr.org/)\
   R/Pharma Conference (workshop)
