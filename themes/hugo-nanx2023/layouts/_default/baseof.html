@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ block "title" . }}{{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} - {{ .Site.Title }} {{ end }}{{ end }}</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}" />
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.meta_img | default .Site.Params.logofile }}" />
+    <meta property="og:description" content="{{ .Description | default .Site.Params.description }}" />
+
+    <meta name="twitter:card" content="{{ .Params.cardtype | default "summary_large_image" }}" />
+    {{ if .Site.Params.twitter }}
+    <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+    <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
+    {{ end }}
+    <meta name="twitter:title" content="{{ .Title | default .Site.Title }}" />
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.meta_img | default .Site.Params.logofile }}" />
+
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css" />
+
+    {{ if .Site.Params.highlightjs }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/textmate.css" />
+    {{ end }}
+
+    {{ if .Site.Params.progressively }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/progressively/1.2.5/progressively.min.css" integrity="sha512-TdJkMXwjtS9Gb8rN919K1JVdUv2+q5YHsKXPtJGDP79t1Nd5oCZy5mFA6Nr85Dsp6wJ1SUQgOyHPDulLzTjDcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{ end }}
+
+    <link rel="shortcut icon"
+        href="{{ if .Site.Params.faviconfile }}{{ .Site.Params.faviconfile | absURL }}{{ else }}{{ .Site.BaseURL }}img/favicon.ico{{ end }}">
+
+    {{ if .Site.RSSLink }}
+    <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+    {{ end }}
+</head>
+
+<body>
+    {{ block "main" . }}{{ end }}
+
+    {{/*
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js" integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    */}}
+
+    {{ if .Site.Params.highlightjs }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        {{ range .Site.Params.highlightjslanguages }}
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/{{.}}.min.js" defer></script>
+        {{ end }}
+        <script>
+            window.addEventListener('load', function() {
+                hljs.highlightAll();
+            }, true);
+        </script>
+    {{ end }}
+
+    {{ if .Site.Params.progressively }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/progressively/1.2.5/progressively.min.js" integrity="sha512-JHDcp2sDHZvbTtwRHZM4sayXF89201gAperAFvLdoqDAMwMTm2YYByGe/GaKGwoESsDCA2bH9yBF2njFfrBDgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            window.addEventListener('load', function() {
+                progressively.init({delay: 30, throttle: 50});
+            }, true);
+        </script>
+    {{ end }}
+
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{ if .Site.Params.uselatex }}
+        {{ partial "footer_mathjax.html" . }}
+    {{ end }}
+</body>
+
+</html>
