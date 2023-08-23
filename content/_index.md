@@ -19,3 +19,9 @@ I earned my PhD degree in biostatistics from New York University.
 My thesis focused on developing statistical methods to evaluate
 prognostic accuracy in survival analysis and longitudinal microbiome data, advised by
 [Yongzhao Shao](https://med.nyu.edu/faculty/yongzhao-shao) and [Huilin Li](https://med.nyu.edu/faculty/huilin-li).
+
+<style>
+.landing {
+    font-size: 1.0625rem;
+}
+</style>

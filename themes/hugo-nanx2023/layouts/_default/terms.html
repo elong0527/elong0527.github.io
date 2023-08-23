@@ -10,14 +10,13 @@
                 </div>
 
                 <div class="posts">
-                    <h1>Posts about {{ .Title }}</h1>
+                    <h1>{{ .Title }}</h1>
                     <hr>
                     <ul class="list-unstyled">
-                        {{ range .Data.Pages.GroupByDate "2006" "desc"}}
-                        <li class="groupby">{{ .Key }}</li>
-                        {{ range sort .Pages "Date" "desc" }}
-                        {{ partial "list" . }}
-                        {{ end }}
+                        {{ range .Data.Terms.Alphabetical }}
+                        <li class="taxonomy-term">
+                            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+                        </li>
                         {{ end }}
                     </ul>
                 </div>

@@ -18,7 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 
 [params]
 pagetitle = "Yilong Zhang"
-copyright = "© 2021–2023 Yilong Zhang"
+copyright = "© 2023 Yilong Zhang. All rights reserved."
 logofile = "image/yilong-profile.jpg"
 logoalt = "Portrait of Yilong Zhang"
 posts_navigation = true
