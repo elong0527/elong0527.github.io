@@ -24,7 +24,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/books/</guid>
-      <description>  R for Clinical Study Reports and Submission (2021, work in progress) Slides for a workshop | Slides for a talk  </description>
+      <description> R for Clinical Study Reports and Submission (2021, work in progress) Slides for a workshop | Slides for a talk </description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/colophon/</guid>
-      <description> Typography  Source Sans 3 DM Serif Text IBM Plex Mono Tailwind CSS Typography  Publishing  Site generator: blogdown, driven by Hugo Theme: hugo-nanx2023, built on Bootstrap 5 Commenting: utterances  Editing  R Markdown: RStudio Desktop HTML, CSS, JavaScript: Visual Studio Code  </description>
+      <description> Typography Body text and headline: Instrument Sans Monospace: Hasklig Theme style: Tailwind CSS Typography Publishing Site generator: blogdown, driven by Hugo Theme: hugo-nanx2023, built on Bootstrap 5 Commenting: utterances Editing R Markdown: RStudio IDE HTML, CSS, JavaScript: Visual Studio Code </description>
     </item>
     
     <item>
@@ -42,11 +42,11 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/papers/</guid>
-      <description>Profiles  Google Scholar: full list of publications. ORCID   Selected publications   SMIM: A unified framework of survival sensitivity analysis using multiple imputation and martingale.
+      <description>Profiles Google Scholar: full list of publications. ORCID Selected publications SMIM: A unified framework of survival sensitivity analysis using multiple imputation and martingale
 Yang, Shu, Yilong Zhang, Guanghan Frank Liu, and Qian Guan. Biometrics (2021+)
-  Analysis and reporting in regulated clinical trial environment using R.
+Analysis and reporting in regulated clinical trial environment using R
 Peikun Wu, Palukuru Uday Preetham, Luo Yiwen, Nepal Sarad, Yilong Zhang. PharmaSUG (2021)
-  A numerical strategy to evaluate performance of predictive scores via a copula‐based approach</description>
+A numerical strategy to evaluate performance of predictive scores via a copula‐based approach</description>
     </item>
     
     <item>
@@ -55,18 +55,21 @@ Peikun Wu, Palukuru Uday Preetham, Luo Yiwen, Nepal Sarad, Yilong Zhang. PharmaS
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/software/</guid>
-      <description>R packages Reporting  r2rtf
+      <description>R packages Reporting r2rtf
 Easily create production-ready Rich Text Format (RTF) tables and figures
-CRAN | GitHub  Infrastructure and automation  pkglite
+CRAN | GitHub Infrastructure and automation pkglite
 Compact package representations
-CRAN | GitHub  Statistical methods   gsdmvn
+CRAN | GitHub Statistical methods gsdmvn
 Group sequential design for non-proportional hazards
 GitHub
-  smim
+smim
 Survival sensitivity analysis using multiple imputation and martingale
 GitHub | Paper
-  simuCCP
-Simulating time to event data with pre-defined predictive metrics</description>
+simuCCP
+Simulating time to event data with pre-defined predictive metrics
+GitHub | Paper
+evacure
+Evaluating prognostic accuracy for mixture cure models</description>
     </item>
     
     <item>
@@ -75,8 +78,8 @@ Simulating time to event data with pre-defined predictive metrics</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/talks/</guid>
-      <description> 2021  R for Clinical Study Reports and Submission
-R/Pharma Conference (workshop)  </description>
+      <description> 2021 R for Clinical Study Reports and Submission
+R/Pharma Conference (workshop) </description>
     </item>
     
   </channel>
