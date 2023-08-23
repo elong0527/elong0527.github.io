@@ -7,10 +7,9 @@ menu: "main"
 
 ## Typography
 
-- [Source Sans 3](https://github.com/adobe-fonts/source-sans)
-- [DM Serif Text](https://github.com/googlefonts/dm-fonts)
-- [IBM Plex Mono](https://github.com/IBM/plex)
-- [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- Body text and headline: [Instrument Sans](https://github.com/Instrument/instrument-sans)
+- Monospace: [Hasklig](https://github.com/i-tu/Hasklig)
+- Theme style: [Tailwind CSS Typography](https://github.com/tailwindlabs/tailwindcss-typography)
 
 ## Publishing
 
@@ -20,5 +19,15 @@ menu: "main"
 
 ## Editing
 
-- R Markdown: [RStudio Desktop](https://www.rstudio.com/products/rstudio/)
+- R Markdown: [RStudio IDE](https://posit.co/products/open-source/rstudio/)
 - HTML, CSS, JavaScript: [Visual Studio Code](https://code.visualstudio.com/)
+
+<style>
+.markdown ul {
+  list-style: none;
+  padding-left: 2.5ch;
+  border-left: 1px solid var(--tw-prose-hr);
+  margin-left: 3ch;
+  line-height: 1.875rem;
+}
+</style>
